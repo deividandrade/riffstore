@@ -1,5 +1,6 @@
 :root {
   --cor-1: #ffffff;
+  --cor-2p: #e0e0e0;
   --cor-2: #b2b2b2;
   --cor-3: #2e2e2e;
   --cor-4: #191919;
@@ -13,6 +14,11 @@
 .cor-1 {
   color: var(--cor-1);
 }
+
+.cor-2p {
+  color: var(--cor-2p);
+}
+
 .cor-2 {
   color: var(--cor-2);
 }

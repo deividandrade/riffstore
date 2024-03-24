@@ -10,6 +10,7 @@
 /* Home */
 @import "./home/introducao.css";
 @import "./home/regulagem.css";
+@import "/css/home/parceiros.css";
 
 /* Guitarras */
 @import "./instrumentos/instrumentos-lista.css";
