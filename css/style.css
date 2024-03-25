@@ -15,3 +15,6 @@
 
 /* Guitarras */
 @import "./instrumentos/instrumentos-lista.css";
+
+/* Assinatura */
+@import "./assinatura/assinatura.css";
