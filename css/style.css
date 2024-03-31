@@ -19,3 +19,6 @@
 
 /* Serviços */
 @import "./servicos/servicos.css";
+
+/* Termos e Condições */
+@import "./termos/termos.css";
