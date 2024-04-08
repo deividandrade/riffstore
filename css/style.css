@@ -14,8 +14,9 @@
 @import "/css/home/parceiros.css";
 @import "/css/home/depoimento.css";
 
-/* Guitarras */
+/* Instrumentos */
 @import "./instrumentos/instrumentos-lista.css";
+@import "./instrumentos/instrumentos.css";
 
 /* Serviços */
 @import "./servicos/servicos.css";
