@@ -20,6 +20,8 @@
 
 /* Serviços */
 @import "./servicos/servicos.css";
+@import "./servicos/vantagens.css";
+@import "./servicos/perguntas.css";
 
 /* Termos e Condições */
 @import "./termos/termos.css";
