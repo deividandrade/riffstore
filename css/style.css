@@ -18,6 +18,9 @@
 @import "./instrumentos/instrumentos-lista.css";
 @import "./instrumentos/instrumentos.css";
 
+/* Instrumento */
+@import "./instrumento/instrumento.css";
+
 /* Serviços */
 @import "./servicos/servicos.css";
 @import "./servicos/vantagens.css";
