@@ -11,10 +11,14 @@
   justify-content: center;
   display: flex;
   gap: 40px;
-  padding: 0px 20px;
+  padding: 0px 20px 20px 20px;
   max-width: 1400px;
   margin-left: auto;
   margin-right: auto;
+}
+
+#instrumento .instrumentos-lista ul {
+  padding: 0px 0px 20px 0px;
 }
 
 .instrumentos-lista a {
