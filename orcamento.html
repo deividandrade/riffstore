@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Orçamento | RiffStore</title>
+  <meta name="decription" content="Termos e Condições.">
+
+  <link rel="stylesheet" href="/css/style.css">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&family=Oswald:wght@200..700&display=swap" rel="stylesheet">
+
+</head>
+
+<body id="orcamento">
+  <header class="header-bg">
+    <div class="header conteiner">
+      <a href="./"><img src="../img/riffstore.svg" alt="RiffStore">
+      </a>
+
+      <nav aria-label="primaria">
+        <ul class="header-menu font-1-m cor-1">
+          <li><a href="../instrumentos.html">Lançamentos</a></li>
+          <li><a href="../servicos.html">Serviços</a></li>
+          <li><a href="/">Contato</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <div class="titulo-bg">
+      <div class="titulo conteiner">
+        <p class="font-1-m-b cor-2">Instrumentos disponíveis</p>
+        <h1 class="font-1-gra cor-1">Solicite um Orçamento</h1>
+      </div>
+    </div>
+
+    <form class="orcamento conteiner" action="/">
+      <div class="orcamento-produto">
+        <h2 class="font-1-xs cor-2">Básico ou Premium</h2>
+        <input type="radio" name="tipo" value="instrumento" id="instrumento">
+        <label for="instrumento">Instrumentos</label>
+
+        <input type="radio" name="tipo" value="servico" id="servico">
+        <label for="servico">Serviços</label>
+
+
+        <div class="orcamento-conteudo" id="orcamento-instrumento">
+          <h2 class="font-1-xs cor-2">Escolha o seu (INSTRUMENTO)</h2>
+        </div>
+
+        <div class="orcamento-conteudo" id="orcamento-servico">
+          <h2 class="font-1-xs cor-2">Escolha o Serviço</h2>
+        </div>
+
+      </div>
+
+      <div class="orcamento-dados form">
+        <h2 class="font-1-xs cor-3 col-2">Dados Pessoais</h2>
+        <div>
+          <label for="nome">Nome</label>
+          <input type="text" id="nome" name="nome">
+        </div>
+        <div>
+          <label for="sobrenome">Sobrenome</label>
+          <input type="text" id="sobrenome" name="sobrenome">
+        </div>
+        <div class="col-2">
+          <label for="cpf">CPF</label>
+          <input type="text" id="cpf" name="cpf" placeholder="000.000.000-00">
+        </div>
+        <div class="col-2">
+          <label for="email">Email</label>
+          <input type="email" id="email" name="email">
+        </div>
+        <h2 class="font-1-xs cor-3 col-2">Entrega</h2>
+        <div>
+          <label for="cep">CEP</label>
+          <input type="text" id="cep" name="cep" placeholder="00000-000">
+        </div>
+        <div>
+          <label for="numero">Numero</label>
+          <input type="text" id="numero" name="numero">
+        </div>
+        <div>
+          <label for="lougradouro">Lougradouro</label>
+          <input type="text" id="lougradouro" name="lougradouro">
+        </div>
+        <div>
+          <label for="bairro">Bairro</label>
+          <input type="text" id="bairro" name="bairro">
+        </div>
+        <div>
+          <label for="cidade">Cidade</label>
+          <input type="text" id="cidade" name="cidade">
+        </div>
+        <div>
+          <label for="estado">Estado</label>
+          <input type="text" id="estado" name="estado">
+        </div>
+        <button class="botao col-2">Solicitar Orçamento</button>
+      </div>
+
+    </form>
+
+  </main>
+
+  <footer class="footer-bg">
+    <div class="footer conteiner">
+      <img src="/img/riffstore.svg" alt="RiffStore">
+      <div class="footer-contato">
+        <h3 class="font-1-med cor-1">Contato</h3>
+        <ul class="font-1-m cor-2">
+          <li><a href="tel:+558399999999">+55 83 9999-9999</a></li>
+          <li><a href="mailto:contato@riffstore.com">contato@riffstore.com</a></li>
+          <li>Rua Sodré, 999 - João Pinheiro</li>
+          <li>Campina Grande - PB</li>
+        </ul>
+        <div class="footer-redes">
+          <a href="./">
+            <img src="/img/icones/redes/instagram.svg" alt="Instagram">
+          </a>
+          <a href="./">
+            <img src="/img/icones/redes/facebook.svg" alt="Facebook">
+          </a>
+          <a href="./">
+            <img src="/img/icones/redes/youtube.svg" alt="Youtube">
+          </a>
+        </div>
+      </div>
+      <div class="footer-informacoes">
+        <h3 class="font-1-med cor-1">Informações</h3>
+        <nav class="font-1-s cor-1">
+          <li><a href="../instrumentos.html">Lançamentos</a></li>
+          <li><a href="../servicos.html">Serviços</a></li>
+          <li><a href="/">Contato</a></li>
+          <li><a href="../termos.html">Termos e Condiçoes</a></li>
+        </nav>
+      </div>
+      <p class="footer-copy font-1-s cor-3">RiffStore © Alguns direitos reservados.</p>
+    </div>
+  </footer>
+
+</body>
+
+</html>
