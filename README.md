@@ -2,7 +2,7 @@
 
 # Sobre o projeto
 
-Este projeto é uma loja de instrumentos musicais totalmente responsivo, proporcionando uma experiência de usuário excelente para desktops e dispositivos móveis. Sinta-se à vontade para explorar o código.
+Este projeto é uma loja de instrumentos musicais totalmente responsivo, proporcionando uma experiência de usuário para desktops e dispositivos móveis. Sinta-se à vontade para explorar o código.
 
 ## Layout web
 
